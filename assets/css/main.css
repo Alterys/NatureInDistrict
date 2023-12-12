@@ -1,0 +1,88 @@
+body {
+    font-size: 18px;
+    color: #000000;
+    background: #faf9f5;
+    min-width: 320px;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 25px;
+    margin: auto;
+}
+
+.main {
+    padding-top: 150px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.header__login {
+    justify-self: flex-end;
+}
+
+.button {
+    border: 0;
+    font-size: 14px;
+    line-height: 1.29;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 7px 16px;
+    background-color: #73d24a;
+    box-shadow: 0 4px 16px 0 rgba(102, 235, 46, 0.4);
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 64px;
+    row-gap: 32px;
+}
+
+.articles__item {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.image {
+    border-radius: 5px;
+}
+
+.mb {
+    margin-bottom: 17px;
+}
+
+.name {
+    font-size: 22px;
+    line-height: 1.27;
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 15px;
+    line-height: 1.33;
+    color: rgba(0, 0, 0, 0.5);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.stats {
+    display: flex;
+}
+
+.icon {
+    margin-right: 12px;
+}
